@@ -1,7 +1,7 @@
 
 const { RTMClient } = require('@slack/client');
 // An access token (from your Slack app or custom integration - usually xoxb)
-const token = 'xoxb-306201327650-525937939813-jROAtV81PTwyjYTrFgsYX6DV';// process.env.SLACK_TOKEN;
+const token = 'xoxb-306201327650-547040171525-y41xbycTPUep3O4K2DdjOOGY';// process.env.SLACK_TOKEN;
 const CLIENT_EVENTS = require("@slack/client").CLIENT_EVENTS;
 // The client is initialized and then started to get an active connection to the platform
 const rtm = new RTMClient(token);
