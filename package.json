@@ -1,0 +1,42 @@
+{
+  "name": "arturito",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Anakin Skywalker",
+  "description": "A simple helpful robot for your Company",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "hubot": "^2.19.0",
+    "hubot-diagnostics": "0.0.2",
+    "hubot-google-images": "^0.2.7",
+    "hubot-google-translate": "^0.2.1",
+    "hubot-help": "^0.2.2",
+    "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-maps": "0.0.3",
+    "hubot-pugme": "^0.1.1",
+    "hubot-redis-brain": "0.0.4",
+    "hubot-rules": "^0.1.2",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.4.0",
+    "hubot-youtube": "^1.0.2",
+    "jQuery": "^1.7.4",
+    "jsdom": "^11.3.0",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "phantom": "^4.0.5",
+    "rutjs": "^0.1.1",
+    "string": "^3.3.3"
+  },
+  "main": "bin/hubot",
+  "scripts": {
+    "test": "ava test"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "hubot-test-helper": "^1.8.1"
+  }
+}

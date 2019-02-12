@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+- '8'
+notifications:
+  email: false
+  slack: devsagibiz:sEKQ9PVZk8r8xNj46yZB8qOG
+
+addons:
+  ssh_known_hosts:
+
+before_script:
+- export TZ=America/Santiago
+
+before_deploy:
+
+deploy:
+
+cache:
